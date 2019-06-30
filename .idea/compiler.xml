@@ -6,7 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springcloud" />
+        <module name="eurekaserver" />
+        <module name="feign" />
+        <module name="gateway" />
+        <module name="provider" />
       </profile>
     </annotationProcessing>
   </component>
